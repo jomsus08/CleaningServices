@@ -1,3 +1,10 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
 :root{
     --mount-meadow: #1bbc9c;
     --white-smoke: #f0f0f0;
